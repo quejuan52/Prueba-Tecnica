@@ -2,9 +2,9 @@
 
 Este repositorio contiene dos desarrollos independientes utilizando Django y python.
 
-## Proyecto Django-Validación de archivo CSV
+## Proyecto Django-Validación de archivo TXT
 
-Este proyecto permite subir un archivo CSV y valida su estructura siguiendo los siguientes criterios:
+Este proyecto permite subir un archivo Txt y valida su estructura siguiendo los siguientes criterios:
 
 ### ✅ Requerimientos de validación
 -El archivo debe contener exactamente 5 columnas, si existe mas o menos deberá alertar al usuario
@@ -22,9 +22,9 @@ Si alguna regla falla, el sistema muestra los errores detallados por fila y colu
 -Django 5+
 -HTML + TailwindCSS (interfaz)
 -Regex para validaciones
--Manejo de archivos CSV
+-Manejo de archivos
 
-### ▶ pasos para ejecutar el script de PDFs
+### ▶ pasos para ejecutar el proyecto Django
 
 1. Crear el entorno virtual
     - python -m venv venv
