@@ -7,22 +7,22 @@ Este repositorio contiene dos desarrollos independientes utilizando Django y pyt
 Este proyecto permite subir un archivo Txt y valida su estructura siguiendo los siguientes criterios:
 
 ### ✅ Requerimientos de validación
--El archivo debe contener exactamente 5 columnas, si existe mas o menos deberá alertar al usuario
--Columna 1: Solo números enteros entre 3 y 10 dígitos.
--Columna 2: Debe ser un correo electrónico válido.
--Columna 3: Solo permite los valores "CC" o "TI".
--Columna 4: Solo valores numéricos entre 500000 y 1500000.
--Columna 5: Acepta cualquier valor.
+- El archivo debe contener exactamente 5 columnas, si existe mas o menos deberá alertar al usuario
+- Columna 1: Solo números enteros entre 3 y 10 dígitos.
+- Columna 2: Debe ser un correo electrónico válido.
+- Columna 3: Solo permite los valores "CC" o "TI".
+- Columna 4: Solo valores numéricos entre 500000 y 1500000.
+- Columna 5: Acepta cualquier valor.
 
 Si alguna regla falla, el sistema muestra los errores detallados por fila y columna.
 
 ### 🛠 Tecnologias Utilizadas
 
--Python 3.10+
--Django 5+
--HTML + TailwindCSS (interfaz)
--Regex para validaciones
--Manejo de archivos
+- Python 3.10+
+- Django 5+
+- HTML + TailwindCSS (interfaz)
+- Regex para validaciones
+- Manejo de archivos
 
 ### ▶ pasos para ejecutar el proyecto Django
 
@@ -55,11 +55,11 @@ cada factura se guarda en una base de datos SQlite como se observa en la tabla:
 | fecha_procesamiento | Fecha de registro |
 
 ### 🛠 Tecnologias Utilizadas
--Python 3.10+
--PyPDF2 para lectura de PDFs
--Regex para extracción del CUFE
--SQLite3 para almacenamiento
--Pathlib + OS para manejo de archivos
+- Python 3.10+
+- PyPDF2 para lectura de PDFs
+- Regex para extracción del CUFE
+- SQLite3 para almacenamiento
+- Pathlib + OS para manejo de archivos
 
 ### ▶ pasos para ejecutar el script de PDFs
 
