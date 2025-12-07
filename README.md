@@ -1,4 +1,4 @@
-# Prueba-Tecnica
+# Prueba Tecnica
 
 Este repositorio contiene dos desarrollos independientes utilizando Django y python.
 
